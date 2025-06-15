@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ChatGPT Split Screen Clone</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>ChatGPT Split Screen Clone</h1>
+    <div id="container">
+        <div id="old-messages" class="panel">
+            <h2>Old Prompts</h2>
+            <div class="messages" id="old-content"></div>
+        </div>
+        <div id="new-messages" class="panel">
+            <h2>New Prompts</h2>
+            <div class="messages" id="new-content"></div>
+            <div id="input-area">
+                <input type="text" id="user-input" placeholder="Type a message" />
+                <button id="send-btn">Send</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
